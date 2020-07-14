@@ -1,0 +1,98 @@
+{
+  "displayName": "GitLab",
+  "type": "gitlab",
+  "logo": "gitlab.png",
+  "logoSmall": "gitlab_small.png",
+  "metadata": [{
+    "name": "domain",
+    "dependent": true,
+    "dependentMetadata": "project"
+  }, {
+    "name": "project",
+    "dependent": false,
+    "dependentMetadata": ""
+  }, {
+    "name": "issuetype",
+    "dependent": true,
+    "dependentMetadata": ""
+  }
+
+],
+  "fields": [
+    {
+      "id": "summary",
+      "name": "Summary",
+      "datatype": "string"
+    },
+    {
+      "id": "author",
+      "name": "author",
+      "datatype": "string"
+    },
+    {
+      "id": "ID_URL",
+      "name": "ID_URL",
+      "datatype": "string"
+    },
+    {
+      "id": "description",
+      "name": "Description",
+      "datatype": "string"
+    },
+    {
+      "id": "id",
+      "name": "id",
+      "datatype": "number"
+    },
+    {
+      "id": "Webhooks_URL",
+      "name": "Webhooks_URL",
+      "datatype": "string"
+    },
+    {
+      "id": "priority",
+      "name": "priority",
+      "datatype": "number"
+    },
+    {
+      "id": "severity",
+      "name": "severity",
+      "datatype": "number"
+    },
+    {
+      "id": "status",
+      "name": "status",
+      "datatype": "string"
+    },
+    {
+    "id": "commentId",
+    "name": "Comments",
+    "datatype": "string"
+    }, {
+    "id": "attachmentId",
+    "name": "Attachment",
+    "datatype": "string"
+    }
+  ],
+  "loginOptions": [],
+  "idFieldName": "id",
+  "titleFieldName": "Summary",
+  "projectFieldName": "project",
+  "artifactFieldName": "issuetype",
+  "testStepsFieldName": "",
+  "changedDateFieldName": "modified",
+  "dateFormat": "dd-MM-yyyy",
+  "dateTimeFormat": "dd-MM-yyyy HH:mm:ss.SSS",
+  "isISO8601DateFormat": "false",
+  "commentFieldName": "Comments",
+	"commentFieldId": "commentId",
+	"attachmentFieldName": "Attachment",
+	"attachmentFieldId": "attachmentId",
+  "apiVersion": "",
+  "callBackUrlConfigured": false,
+  "callBackUrls": [],
+  "apiProvider": "ExternalApplication",
+  "urlDescription": "",
+  "userNameDescription": "",
+  "passwordDescription": ""
+}
