@@ -1,18 +1,18 @@
 # connectall-gitlab-adapter
 GITLAB Adapter for ConnectALL
 
+## Description
+ConnectALL's GitLab adapter is a configuration of ConnectALL's Universal Adapter
 
-ConnectALL GitLab adapter is built on top of Universal adapter configuration.
-
-## Usecase
-GitLab issues can now be synchronized to other systems.
+## Supported Entity Type
+* GitLab Issues
 
 ## Examples
-* Issues reported by community will be synchronized to Jira for planning and tracking
+* Issues reported by the community will be synchronized to Jira (or another application of your choosing) for planning and tracking
 
 # How to use
 
-> In order to use the Gitlab adapter you will need to get the license from ConnectALL sales team. Please reach out to sales@connectall.com for licenses and quotes.
+> Please reach out to sales@connectall.com for a trial license.
 
 ## Authentication
 * In Gitlab, create a Personal Access Token
