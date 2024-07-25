@@ -1,4 +1,4 @@
-# connectall-gitlab-adapter
+# ua-gitlab
 GITLAB Adapter for ConnectALL
 
 ## Description
