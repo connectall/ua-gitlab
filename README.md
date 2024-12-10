@@ -6,9 +6,16 @@ ConnectALL's GitLab adapter is a configuration of ConnectALL's Universal Adapter
 
 ## Supported Entity Type
 * GitLab Issues
+* GitLab Deployments
+* GitLab Commits
+* GitLab Merge Requests
 
 ## Examples
 * Issues reported by the community will be synchronized to Jira (or another application of your choosing) for planning and tracking
+* Merge Requestd can be synced back to a tool such as Work Planning tool such as Rally
+* Deployment data can be synced back to an analytics platform such as Broadcom ValueOps Insights
+* Commit data can be synced back to an analytics platform such as Broadcom ValueOps Insights
+  
 
 # How to use
 
