@@ -31,7 +31,9 @@ This Universal Adapter currently supports the following entities:
 * **Select Group:** *Set if neccessary*
 * **Authentication Type:** *API Key*
 * **API Key:** *Authorization*
-* **API Value:** *Bearer: <PERSONAL_TOKEN>*
+* **API Value:** *Bearer: Bearer <PERSONAL_TOKEN>*
+
+**Note:**  A personal access token is needed to create a valid connection.  Be sure to enter *<Bearer personal_access_token>*.  The space between Bearer and the token is required.
 
 ## Flow Filters
 
