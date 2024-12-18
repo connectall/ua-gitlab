@@ -31,7 +31,7 @@ This Universal Adapter currently supports the following entities:
 * **Select Group:** *Set if neccessary*
 * **Authentication Type:** *API Key*
 * **API Key:** *Authorization*
-* **API Value:** *Bearer: Bearer <ACCESS_TOKEN>*
+* **API Value:** *Bearer <ACCESS_TOKEN>*
 
 **Note:**  *A group or personal access token is needed to create a valid connection.  Be sure to enter "Bearer access_token".  The space between Bearer and the token is required.  Using a high level group access token will enable fewer ConnectALL connections to be created.  But be sure to security into account when deciding where to create the group access token.*
 
