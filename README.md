@@ -56,4 +56,4 @@ This Universal Adapter currently supports the following entities:
 
 # Supporting Documentation
 
-Third Party API Documentation: [Link to API Documentation](https://docs.gitlab.com/ee/api/rest/)
+Third Party API Documentation: [Link to GitLab API Documentation](https://docs.gitlab.com/ee/api/rest/)
