@@ -37,14 +37,14 @@ This Universal Adapter currently supports the following entities:
 
 ## Flow Filters
 
-*Flow filters can be created by adding attributes for the specific entity as descripted in the GitLab API*
+Flow filters can be created by adding attributes for the specific entity as descripted in the GitLab API
 
-*As an example, to create a flow filter for a specific environment such as production for a deployment entity:*
-*environment=production*
+As an example, to create a flow filter for a specific environment such as production for a deployment entity:
+**environment=production**
 
-*Note:  For filter names that include a space, replace the space with %20*
+**Note:**  For filter names that include a space, replace the space with %20*
 
-*For Commit entity, a flow filter could be author=Jane%20Doe where %20 is used in place of a space*
+For Commit entity, a flow filter could be **author=Jane%20Doe** where %20 is used in place of a space
 
 ## Example Automation
 
