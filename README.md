@@ -37,7 +37,7 @@ This Universal Adapter currently supports the following entities:
 
 A group or personal access token is needed to create a valid connection.  Be sure to enter "Bearer access_token".  The space between Bearer and the token is required.  
 
-Using a high level group access token will enable fewer ConnectALL connections to be created.  But be sure to security into account when deciding where to create the group access token.
+Using a high level group access token will enable fewer ConnectALL connections to be created.  But be sure to take security best practices into account when deciding where to create the group access token.
 
 The scope of the access token will determine which projects are listed when configuring the project entity under the **Entity Mapping** tab of the automation.  The UA adapter is currently set to query projects where **owner=true** to reduce all public projects from appearing in the dropdown list. 
 
