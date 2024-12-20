@@ -23,8 +23,8 @@ This Universal Adapter currently supports the following entities:
 * **Connection Name:** *GiLab*
 * **Application Type:** *gitlab*
 * **URL:** *Base URL for application (ex: https://gitlab.com)*
-* **User Name:** *Set if using basic auth*
-* **Password:** *Set if using basic auth*
+* **User Name:** *Leave Blank. Basic Auth is not supported*
+* **Password:** *Leave Blank.  Basic Auth is not supported*
 * **Auth Operation:** *Header*
 * **Application Category:** *Pick from dropdown list*
 * **Time Zone:** *Select GMT+0 as the time zone*
