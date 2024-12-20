@@ -11,10 +11,10 @@ If you are an existing SaaS customer, please contact Broadcom Support to enable 
 ## Supported Entities
 
 This Universal Adapter currently supports the following entities:
-* GitLab Issues
-* GitLab Merge Requests
-* GitLab Deploys
-* GitLab Commits
+* Issues
+* Merge Requests
+* Deploys
+* Commits
 
 *Note: This Universal Adapter is provided as-is. It is tested and validated using the entities and configurations as defined. Any additional customizations are not supported and should be made at your own discretion.*
 
