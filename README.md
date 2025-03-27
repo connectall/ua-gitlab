@@ -12,9 +12,10 @@ If you are an existing SaaS customer, please contact Broadcom Support to enable 
 
 This Universal Adapter currently supports the following entities:
 * Issues
+* Branches
+* Commmits
 * Merge Requests
 * Deploys
-* Commits
 
 *Note: This Universal Adapter is provided as-is. It is tested and validated using the entities and configurations as defined. Any additional customizations are not supported and should be made at your own discretion.*
 
@@ -59,7 +60,8 @@ See the [GitLab API documentation](https://docs.gitlab.com/ee/api/rest/) for a l
 ## Example Automation
 
 - Create a GitLab Issue from a ServiceNow Incident.
-- Link a Merge request from GitLab to a Rally work item.
+- Create a new Branch in GitLab when a Rally User Story or Defect reaches the "In Progress" Flow State.
+- Link a Commit or a Merge Request from GitLab to a Rally User Story or Defect.
 - Pull Deploy and Commit objects to support Dora4 Metrics in [Broadcom ValueOps Insights.](https://techdocs.broadcom.com/us/en/ca-enterprise-software/valueops/valueops-solution/ValueOps-Solution/n-valueops-capabilities/valueops-insights.html)
 
 # Known Limitations
